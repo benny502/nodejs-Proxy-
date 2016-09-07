@@ -1,0 +1,6 @@
+# nodejs-Proxy-
+用nodejs学习代理的实现原理
+
+server.js中用http模块实现了网页代理，可惜不能代理https
+于是再net_server中用net模块重新实现一套支持keep-alive的代理，http网页方式基本没有问题了。
+可能是对keep-alive与ssl理解还不够深入，https网页的代理还是存在一些问题，需要继续研究
